@@ -23,8 +23,8 @@ const users = [
 const siteConfig = {
   title: 'Path.WTF', // Title for your website.
   tagline: 'It`s like a map',
-  url: 'https://mahdikhosravi.github.io', // Your website URL
-  baseUrl: '/path.wtf/', // Base URL for your project */
+  url: 'https://path.wtf', // Your website URL
+  baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
