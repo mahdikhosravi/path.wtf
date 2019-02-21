@@ -10,9 +10,9 @@
 version: 2
 jobs:
   deploy-website:
-    docker:
+#    docker:
       # specify the version you desire here
-      - image: circleci/node:8.11.1
+#      - image: circleci/node:8.11.1
 
     steps:
       - checkout
