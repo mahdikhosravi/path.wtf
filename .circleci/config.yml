@@ -20,6 +20,5 @@ workflows:
   build_and_deploy:
     jobs:
       - deploy-website:
-          filters:
-            branches:
-              only: source
+          branches:
+            only: source
