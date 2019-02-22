@@ -22,4 +22,5 @@ workflows:
       - deploy-website:
           filters:
             branches:
-              only: source
+              only:
+                - source
