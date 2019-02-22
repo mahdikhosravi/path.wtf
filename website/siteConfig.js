@@ -4,6 +4,8 @@ const siteConfig = {
   url: "https://path-wtf.github.io/",
   baseUrl: "/",
 
+  cname: "path.wtf",
+
   projectName: "path-wtf.github.io",
   organizationName: "path-wtf",
 
