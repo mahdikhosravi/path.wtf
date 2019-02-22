@@ -31,5 +31,5 @@ workflows:
       - deploy-website:
               #filters: *filter-only-master
           branches:
-             only: master
+            only: master
 
