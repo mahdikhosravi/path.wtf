@@ -8,10 +8,10 @@ const siteConfig = {
   organizationName: "path-wtf",
 
   headerLinks: [
-    { doc: "doc1", label: "Docs" },
+    { doc: "doc1", label: "آموزش‌ها" },
     { doc: "doc4", label: "API" },
     { page: "help", label: "Help" },
-    { blog: true, label: "Blog" }
+    { blog: true, label: "بلاگ" }
   ],
 
   headerIcon: "img/logo.png",
@@ -19,8 +19,8 @@ const siteConfig = {
   favicon: "img/favicon.png",
 
   colors: {
-    primaryColor: "#ffc300",
-    secondaryColor: "#1f1f1f"
+    primaryColor: "#1f1f1f",
+    secondaryColor: "#ffc300"
   },
 
   /* Custom fonts for website */
@@ -48,13 +48,13 @@ const siteConfig = {
 
   // Open Graph and Twitter card images.
   ogImage: "img/logo.png",
-  twitterImage: "img/logo.png"
+  twitterImage: "img/logo.png",
 
   // Show documentation's last contributor's name.
-  // enableUpdateBy: true,
+  enableUpdateBy: true,
 
   // Show documentation's last update time.
-  // enableUpdateTime: true,
+  enableUpdateTime: true
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
