@@ -9,10 +9,10 @@
         <generator>Feed for Node.js</generator>
         <image>
             <title>Path.WTF Blog</title>
-            <url>https://path-wtf.github.io//img/docusaurus.svg</url>
+            <url>https://path-wtf.github.io//img/logo.png</url>
             <link>https://path-wtf.github.io//blog</link>
         </image>
-        <copyright>Copyright © 2019 Your Name or Your Company Name</copyright>
+        <copyright>Copyright © 2019 Path.WTF</copyright>
         <item>
             <title><![CDATA[New Version 1.0.0]]></title>
             <link>https://path-wtf.github.io//blog/2017/10/24/new-version-1.0.0.html</link>
