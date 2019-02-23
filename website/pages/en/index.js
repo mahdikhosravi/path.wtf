@@ -66,29 +66,6 @@ class HomeSplash extends React.Component {
   }
 }
 
-class AboutUs extends React.Component {
-  render() {
-    return (
-      <div className="homeContainer pluginRowBlock">
-        <div>
-          <h2 className="aboutUsTitle">درباره‌ی ما</h2>
-          <div className="aboutUsBody">
-            ایده‌ی این جا از
-            <a href="https://github.com/kamranahmedse/developer-roadmap">
-              <span> نقشه‌ی راه توسعه‌دهنده‌ها </span>
-            </a>
-            آمده‌است.
-            <br />
-            ما دوست داریم آموزش‌هایی رو آماده کنیم که هرکسی علاقه‌مند هست بتونه
-            توسعه‌دهنده‌ بشه. هرکسی دوست داره می‌تونه به ما کمک کنه. همه چیز توی
-            گیت‌هاب ما هست. تمام محتوا منبع‌باز هست و می‌مونه.
-          </div>
-        </div>
-      </div>
-    );
-  }
-}
-
 class Index extends React.Component {
   render() {
     const { config: siteConfig, language = "" } = this.props;
@@ -96,7 +73,6 @@ class Index extends React.Component {
     return (
       <div>
         <HomeSplash siteConfig={siteConfig} language={language} />
-        <AboutUs />
       </div>
     );
   }
