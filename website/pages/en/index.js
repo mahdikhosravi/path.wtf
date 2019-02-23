@@ -57,11 +57,36 @@ class HomeSplash extends React.Component {
         <div className="inner">
           <ProjectTitle siteConfig={siteConfig} />
           <PromoSection>
-            {/* <Button href={docUrl("doc1.html")}>آموزش‌ها</Button> */}
-            {/* <Button href={docUrl("doc2.html")}>حمایت</Button> */}
+            <Button href={docUrl("doc1.html")}>آموزش‌ها</Button>
+            <Button href={docUrl("doc2.html")}>حمایت</Button>
           </PromoSection>
         </div>
       </SplashContainer>
+    );
+  }
+}
+
+class AboutUs extends React.Component {
+  render() {
+    const { siteConfig } = this.props;
+    return (
+      <div className="homeContainer pluginRowBlock">
+        <div>
+          <Logo siteConfig={siteConfig} />
+          <h2 className="aboutUsTitle">درباره‌ی ما</h2>
+          <div className="aboutUsBody">
+            ایده‌ی این جا از
+            <a href="https://github.com/kamranahmedse/developer-roadmap">
+              <span> نقشه‌ی راه توسعه‌دهنده‌ها </span>
+            </a>
+            آمده‌است.
+            <br />
+            ما دوست داریم آموزش‌هایی رو آماده کنیم که هرکسی علاقه‌مند هست بتونه
+            توسعه‌دهنده‌ بشه. هرکسی دوست داره می‌تونه به ما کمک کنه. همه چیز توی
+            گیت‌هاب ما هست. تمام محتوا منبع‌باز هست و می‌مونه.
+          </div>
+        </div>
+      </div>
     );
   }
 }
@@ -73,6 +98,7 @@ class Index extends React.Component {
     return (
       <div>
         <HomeSplash siteConfig={siteConfig} language={language} />
+        <AboutUs siteConfig={siteConfig} />
       </div>
     );
   }
