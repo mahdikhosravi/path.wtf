@@ -1,11 +1,17 @@
 const React = require("react");
 
-const CompLibrary = require("../../core/CompLibrary.js");
+class Logo extends React.Component {
+  render() {
+    const { siteConfig } = this.props;
+    const { baseUrl } = siteConfig;
 
-const MarkdownBlock = CompLibrary.MarkdownBlock;
-const Container = CompLibrary.Container;
-const GridBlock = CompLibrary.GridBlock;
-
+    return (
+      <div className="projectLogo">
+        <img src={`${baseUrl}img/logo.png`} alt="Project Logo" />
+      </div>
+    );
+  }
+}
 class HomeSplash extends React.Component {
   render() {
     const { siteConfig, language = "" } = this.props;
@@ -19,12 +25,6 @@ class HomeSplash extends React.Component {
         <div className="homeSplashFade">
           <div className="wrapper homeWrapper">{props.children}</div>
         </div>
-      </div>
-    );
-
-    const Logo = props => (
-      <div className="projectLogo">
-        <img src={props.img_src} alt="Project Logo" />
       </div>
     );
 
@@ -53,12 +53,12 @@ class HomeSplash extends React.Component {
 
     return (
       <SplashContainer>
-        <Logo img_src={`${baseUrl}img/logo.png`} />
+        <Logo siteConfig={siteConfig} />
         <div className="inner">
           <ProjectTitle siteConfig={siteConfig} />
           <PromoSection>
-            <Button href={docUrl("doc1.html")}>آموزش‌ها</Button>
-            <Button href={docUrl("doc2.html")}>حمایت</Button>
+            {/* <Button href={docUrl("doc1.html")}>آموزش‌ها</Button> */}
+            {/* <Button href={docUrl("doc2.html")}>حمایت</Button> */}
           </PromoSection>
         </div>
       </SplashContainer>
@@ -66,64 +66,37 @@ class HomeSplash extends React.Component {
   }
 }
 
+class AboutUs extends React.Component {
+  render() {
+    return (
+      <div className="homeContainer pluginRowBlock">
+        <div>
+          <h2 className="aboutUsTitle">درباره‌ی ما</h2>
+          <div className="aboutUsBody">
+            ایده‌ی این جا از
+            <a href="https://github.com/kamranahmedse/developer-roadmap">
+              <span> نقشه‌ی راه توسعه‌دهنده‌ها </span>
+            </a>
+            آمده‌است.
+            <br />
+            ما دوست داریم آموزش‌هایی رو آماده کنیم که هرکسی علاقه‌مند هست بتونه
+            توسعه‌دهنده‌ بشه. هرکسی دوست داره می‌تونه به ما کمک کنه. همه چیز توی
+            گیت‌هاب ما هست. تمام محتوا منبع‌باز هست و می‌مونه.
+          </div>
+        </div>
+      </div>
+    );
+  }
+}
+
 class Index extends React.Component {
   render() {
     const { config: siteConfig, language = "" } = this.props;
-    const { baseUrl } = siteConfig;
-
-    const Block = props => (
-      <Container
-        padding={["bottom", "top"]}
-        id={props.id}
-        background={props.background}
-      >
-        <GridBlock
-          align="center"
-          contents={props.children}
-          layout={props.layout}
-        />
-      </Container>
-    );
-
-    const AboutUs = () => (
-      <Block>
-        {[
-          {
-            content: "ما تلاش می‌کنیم مسیر آموزش رو برای شما مشخص کنیم :)",
-            image: `${baseUrl}img/logo.png`,
-            imageAlign: "right",
-            title: "درباره‌ی ما"
-          }
-        ]}
-      </Block>
-    );
-
-    const Features = () => (
-      <Block layout="fourColumn">
-        {[
-          {
-            content: "This is the content of my feature",
-            image: `${baseUrl}img/logo.png`,
-            imageAlign: "top",
-            title: "Feature One"
-          },
-          {
-            content: "The content of my second feature",
-            image: `${baseUrl}img/logo.png`,
-            imageAlign: "top",
-            title: "Feature Two"
-          }
-        ]}
-      </Block>
-    );
 
     return (
       <div>
         <HomeSplash siteConfig={siteConfig} language={language} />
-        <div className="mainContainer">
-          <Features />
-          <AboutUs />
-        </div>
+        <AboutUs />
       </div>
     );
   }

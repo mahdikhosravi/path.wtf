@@ -11,8 +11,7 @@ const siteConfig = {
 
   headerLinks: [
     { doc: "doc1", label: "آموزش‌ها" },
-    { doc: "doc4", label: "API" },
-    { page: "help", label: "Help" },
+    { page: "help", label: "حمایت" },
     { blog: true, label: "بلاگ" }
   ],
 

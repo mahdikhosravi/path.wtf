@@ -11,6 +11,24 @@
   color: #e1e1e1;
 }
 
+.aboutUsTitle {
+  font-size: 300%;
+}
+
+.aboutUsBody {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  font-size: 150%;
+}
+
+a {
+  color: darkblue;
+}
+a:hover {
+  color: blueviolet;
+}
+
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
 }
 
@@ -21,6 +39,12 @@
 
   .navigationSlider .slidingNav ul > li a:hover {
     color: #e1e1e1;
+  }
+
+  .aboutUsBody {
+    text-align: center;
+    width: 50%;
+    margin: auto;
   }
 }
 
