@@ -1,10 +1,39 @@
 {
   "docs": {
-    "Docusaurus": ["doc1"],
-    "First Category": ["doc2"],
-    "Second Category": ["doc3"]
-  },
-  "docs-other": {
-    "First Category": ["doc4", "doc5"]
+    "کلا چه خبره؟": ["intro"],
+    "مقدمات": ["introduction/intro"],
+    "به کجا می‌خواهیم برویم؟!": [
+      "paths/intro",
+      {
+        "type": "subcategory",
+        "label": "Front-End",
+        "ids": ["paths/frontEnd/intro"]
+      },
+      {
+        "type": "subcategory",
+        "label": "Back-End",
+        "ids": ["paths/backEnd/intro"]
+      },
+      {
+        "type": "subcategory",
+        "label": "DevOps",
+        "ids": ["paths/devOps/intro"]
+      },
+      {
+        "type": "subcategory",
+        "label": "System Administrator",
+        "ids": ["paths/systemAdministrator/intro"]
+      },
+      {
+        "type": "subcategory",
+        "label": "Game Developer",
+        "ids": ["paths/gameDeveloper/intro"]
+      },
+      {
+        "type": "subcategory",
+        "label": "Data Scientist",
+        "ids": ["paths/dataScientist/intro"]
+      }
+    ]
   }
 }

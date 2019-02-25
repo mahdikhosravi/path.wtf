@@ -10,7 +10,7 @@ const siteConfig = {
   organizationName: "path-wtf",
 
   headerLinks: [
-    { doc: "doc1", label: "آموزش‌ها" },
+    { doc: "intro", label: "آموزش‌ها" },
     { page: "help", label: "حمایت" },
     { blog: true, label: "بلاگ" }
   ],
@@ -55,7 +55,9 @@ const siteConfig = {
   enableUpdateBy: true,
 
   // Show documentation's last update time.
-  enableUpdateTime: true
+  enableUpdateTime: true,
+
+  docsSideNavCollapsible: true
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
