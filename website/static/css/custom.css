@@ -1,3 +1,11 @@
+.collapsible .arrow {
+  float: left;
+}
+
+.post {
+  text-align: start;
+}
+
 .navigationWrapper {
   margin-left: 0;
   margin-right: auto;
@@ -9,6 +17,10 @@
 
 .navigationSlider .slidingNav ul > li a:hover {
   color: #e1e1e1;
+}
+
+.navigationSlider .slidingNav ul > li.siteNavItemActive a {
+  color: #fff;
 }
 
 .aboutUsTitle {

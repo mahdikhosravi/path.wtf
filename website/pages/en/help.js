@@ -21,18 +21,17 @@ function Help(props) {
 
   const supportLinks = [
     {
-      content: `Learn more using the [documentation on this site.](${docUrl(
-        "doc1.html"
-      )})`,
-      title: "Browse Docs"
+      content:
+        "هیچ چیز اندازه‌ی معرفی کردن ما به دوستانتون نمی‌تونه به ما کمک کنه",
+      title: "ما رو به بقیه معرفی کنید"
     },
     {
-      content: "Ask questions about the documentation and project",
-      title: "Join the community"
+      content: "هر قدر بیشتر باشیم، زودتر می‌تونیم به هدفمون برسیم",
+      title: "تولید محتوا"
     },
     {
-      content: "Find out what's new with this project",
-      title: "Stay up to date"
+      content: "ما خوشحال می‌شیم :)",
+      title: "حمایت مالی"
     }
   ];
 
@@ -41,9 +40,25 @@ function Help(props) {
       <Container className="mainContainer documentContainer postContainer">
         <div className="post">
           <header className="postHeader">
-            <h1>Need help?</h1>
+            <h1>ما به کمک نیاز داریم</h1>
           </header>
-          <p>This project is maintained by a dedicated group of people.</p>
+          <p>
+            هدف ما کمک به تمام افرادیست که می‌خواهند برنامه‌نویس و توسعه‌دهنده
+            باشند. این هدف محقق نمی‌شود مگر با کمک شما عزیزان.
+            <br /> اگر علاقه دارید با ما همکاری کنید، با حساب
+            <a href="https://github.com/path-wtf"> گیت‌هاب</a> ما تماس بگیرید.
+            <br />
+            همچنین می‌توانید با معرفی ما به دوستانتان در این مسیر به ما کمک
+            کنید.
+            <br />
+            در نهایت، هر فعالیتی هزینه دارد. اگر علاقه دارید به ما در پرداخت
+            هزینه‌ها کمک کنید، می‌توانید از طریق{" "}
+            <a href="https://payping.ir/d/9Kyl"> پی‌پینگ</a> کمک‌های خود را به
+            دست ما برسانید.
+            <br />
+            اگر معتقید به شیوه‌ی دیگری می‌توانید به ما کمک کنید، با{" "}
+            <a href="http://telegram.me/khosi"> خسی</a> در تلگرام تماس بگیرید :)
+          </p>
           <GridBlock contents={supportLinks} layout="threeColumn" />
         </div>
       </Container>
