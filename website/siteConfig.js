@@ -10,7 +10,7 @@ const siteConfig = {
   organizationName: "path-wtf",
 
   headerLinks: [
-    { doc: "intro", label: "آموزش‌ها" },
+    { doc: "gettingStart/intro", label: "آموزش‌ها" },
     { page: "help", label: "حمایت" },
     { blog: true, label: "بلاگ" }
   ],

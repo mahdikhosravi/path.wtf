@@ -1,7 +1,20 @@
 {
   "docs": {
-    "کلا چه خبره؟": ["intro"],
-    "مقدمات": ["introduction/intro"],
+    "کلا چه خبره؟": ["gettingStart/intro", "gettingStart/howToContribute"],
+    "مقدمات": [
+      "introduction/intro",
+      "introduction/git",
+      "introduction/basicTerminalUsage",
+      "introduction/dataStructuresAndAlgorithms",
+      "introduction/solidKissYagni",
+      "introduction/github",
+      "introduction/licenses",
+      "introduction/semanticVersioning",
+      "introduction/ssh",
+      "introduction/httpHttpsAndAPI",
+      "introduction/designPatterns",
+      "introduction/characterEncoding"
+    ],
     "به کجا می‌خواهیم برویم؟!": [
       "paths/intro",
       {

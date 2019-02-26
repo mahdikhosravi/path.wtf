@@ -1,3 +1,33 @@
+body {
+  overflow-x: hidden;
+}
+
+div#docsNav.container.docsNavContainer {
+  overflow-x: hidden;
+}
+
+span.arrow-prev {
+  display: inline-block;
+  transform: rotate(-180deg);
+  -webkit-transform: rotate(-180deg);
+  padding-bottom: 2px;
+}
+
+span.arrow-next {
+  display: inline-block;
+  transform: rotate(-180deg);
+  -webkit-transform: rotate(-180deg);
+  padding-bottom: 2px;
+}
+
+a.docs-prev.button {
+  float: right;
+}
+
+a.docs-next.button {
+  float: left;
+}
+
 .collapsible .arrow {
   float: left;
 }
@@ -20,6 +50,10 @@
 }
 
 .navigationSlider .slidingNav ul > li.siteNavItemActive a {
+  color: #fff;
+}
+
+.navigationSlider .slidingNav ul > li.siteNavGroupActive a {
   color: #fff;
 }
 
