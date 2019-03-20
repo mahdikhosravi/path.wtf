@@ -57,7 +57,8 @@ function Help(props) {
             دست ما برسانید.
             <br />
             اگر معتقید به شیوه‌ی دیگری می‌توانید به ما کمک کنید، با{" "}
-            <a href="http://telegram.me/khosi"> خسی</a> در تلگرام تماس بگیرید :)
+            <a href="http://telegram.me/khosi"> خُسی</a> در تلگرام تماس بگیرید
+            :)
           </p>
           <GridBlock contents={supportLinks} layout="threeColumn" />
         </div>

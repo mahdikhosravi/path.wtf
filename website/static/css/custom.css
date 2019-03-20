@@ -22,10 +22,12 @@ span.arrow-next {
 
 a.docs-prev.button {
   float: right;
+  clear: unset;
 }
 
 a.docs-next.button {
   float: left;
+  clear: unset;
 }
 
 .collapsible .arrow {

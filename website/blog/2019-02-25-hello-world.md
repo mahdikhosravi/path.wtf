@@ -1,6 +1,6 @@
 ---
 title: سلام دنیا
-author: خسی
+author: خُسی
 authorURL: https://mahdikhosravi.com
 ---
 
