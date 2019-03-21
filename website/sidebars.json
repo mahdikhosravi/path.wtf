@@ -2,13 +2,16 @@
   "docs": {
     "کلا چه خبره؟": ["gettingStart/intro", "gettingStart/howToContribute"],
     "مقدمات": [
-      "introduction/intro",
+      "introduction/software",
+      "introduction/hardware",
+      "introduction/openSource",
+      "introduction/licenses",
+      "introduction/operatingSystems",
       "introduction/git",
       "introduction/basicTerminalUsage",
       "introduction/dataStructuresAndAlgorithms",
       "introduction/solidKissYagni",
       "introduction/github",
-      "introduction/licenses",
       "introduction/semanticVersioning",
       "introduction/ssh",
       "introduction/httpHttpsAndAPI",
