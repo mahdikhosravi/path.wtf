@@ -60,21 +60,21 @@ a.docs-next.button {
 }
 
 .aboutUsTitle {
-  font-size: 300%;
+  font-size: 2em;
 }
 
 .aboutUsBody {
   text-align: center;
   width: 80%;
   margin: auto;
-  font-size: 150%;
+  font-size: 1.2em;
 }
 
 a {
-  color: darkblue;
+  color: cornflowerblue;
 }
 a:hover {
-  color: blueviolet;
+  color: skyblue;
 }
 
 .hash-link {
