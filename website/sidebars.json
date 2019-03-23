@@ -4,6 +4,7 @@
     "مقدمات": [
       "introduction/software",
       "introduction/hardware",
+      "introduction/dataAndStorage",
       "introduction/openSource",
       "introduction/licenses",
       "introduction/operatingSystems",
