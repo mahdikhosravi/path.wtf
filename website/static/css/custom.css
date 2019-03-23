@@ -90,6 +90,24 @@ hr {
   border-width: 1.5px;
 }
 
+table tr:nth-child(even) {
+  background-color: #eee;
+}
+
+table tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+table th {
+  background-color: gray;
+  color: white;
+}
+
+table td:last-child {
+  background-color: gray;
+  color: white;
+}
+
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
 }
 
