@@ -90,6 +90,14 @@ hr {
   border-width: 1.5px;
 }
 
+table {
+  width: auto;
+  position: relative;
+  display: table;
+  right: 50%;
+  transform: translateX(50%);
+}
+
 table tr:nth-child(even) {
   background-color: #eee;
 }
