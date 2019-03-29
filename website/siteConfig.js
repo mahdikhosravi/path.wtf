@@ -55,6 +55,10 @@ const siteConfig = {
   ogImage: "img/logo.png",
   twitterImage: "img/logo.png",
 
+  // analytics
+  gaTrackingId: "UA-137253446-1",
+  gaGtag: true,
+
   // Show documentation's last contributor's name.
   enableUpdateBy: true,
 
