@@ -28,6 +28,34 @@ sidebar_label: ذخیره‌سازی داده‌ها
 
 بایت کوچک‌ترین واحد قابل آدرسی‌دهی در سیستم است.
 
+## اندازه‌گیری‌های بزرگ‌تر
+
+سیستم جهانی اندازه‌گیری (SI) از توان‌های ۱۰ برای اندازه‌گیری استفاده می‌کند. در کامپیوتر‌ها همه چیز مبنای ۲ است پس راحت‌تر است اگر از تواناهای دو استفاده کنند. برای حل این مشکل، دو سیستم اندازه‌گیری تعریف شده است:
+
+<center>توان‌های ۲</center>
+| Factor                                                                                             | Name | Symbol |
+| -------------------------------------------------------------------------------------------------- | ---- | :----: |
+| ![inlineImage](https://latex.codecogs.com/png.latex?%5Cinline%20%5Csmall%20%282%5E%7B10%7D%29%5E1) | kibi |   Ki   |
+| ![inlineImage](https://latex.codecogs.com/png.latex?%5Cinline%20%5Csmall%20%282%5E%7B10%7D%29%5E2) | mebi |   Mi   |
+| ![inlineImage](https://latex.codecogs.com/png.latex?%5Cinline%20%5Csmall%20%282%5E%7B10%7D%29%5E3) | gibi |   Gi   |
+| ![inlineImage](https://latex.codecogs.com/png.latex?%5Cinline%20%5Csmall%20%282%5E%7B10%7D%29%5E4) | tebi |   Ti   |
+| ![inlineImage](https://latex.codecogs.com/png.latex?%5Cinline%20%5Csmall%20%282%5E%7B10%7D%29%5E5) | pebi |   Pi   |
+| ![inlineImage](https://latex.codecogs.com/png.latex?%5Cinline%20%5Csmall%20%282%5E%7B10%7D%29%5E6) | exbi |   Ei   |
+| ![inlineImage](https://latex.codecogs.com/png.latex?%5Cinline%20%5Csmall%20%282%5E%7B10%7D%29%5E7) | zebi |   Zi   |
+| ![inlineImage](https://latex.codecogs.com/png.latex?%5Cinline%20%5Csmall%20%282%5E%7B10%7D%29%5E8) | yobi |   Yi   |
+
+<center>توان‌های ۱۰</center>
+| Factor                                                                                             | Name  | Symbol |
+| -------------------------------------------------------------------------------------------------- | ----  | :----: |
+| ![inlineImage](https://latex.codecogs.com/png.latex?%5Cinline%20%5Csmall%20%2810%5E%7B3%7D%29%5E1) | kilo  |    k   |
+| ![inlineImage](https://latex.codecogs.com/png.latex?%5Cinline%20%5Csmall%20%2810%5E%7B3%7D%29%5E2) | mega  |    M   |
+| ![inlineImage](https://latex.codecogs.com/png.latex?%5Cinline%20%5Csmall%20%2810%5E%7B3%7D%29%5E3) | giga  |    G   |
+| ![inlineImage](https://latex.codecogs.com/png.latex?%5Cinline%20%5Csmall%20%2810%5E%7B3%7D%29%5E4) | tera  |    T   |
+| ![inlineImage](https://latex.codecogs.com/png.latex?%5Cinline%20%5Csmall%20%2810%5E%7B3%7D%29%5E5) | peta  |    P   |
+| ![inlineImage](https://latex.codecogs.com/png.latex?%5Cinline%20%5Csmall%20%2810%5E%7B3%7D%29%5E6) | exa   |    E   |
+| ![inlineImage](https://latex.codecogs.com/png.latex?%5Cinline%20%5Csmall%20%2810%5E%7B3%7D%29%5E7) | zetta |    Z   |
+| ![inlineImage](https://latex.codecogs.com/png.latex?%5Cinline%20%5Csmall%20%2810%5E%7B3%7D%29%5E8) | yotta |    Y   |
+
 ## ASCII
 
 گفتیم داده‌ها به صورت ۰ یا ۱ ذخیره می‌شوند و هر بایت ۸ بیت است. کاراکترها چگونه ذخیره می‌شوند؟
@@ -78,6 +106,10 @@ sidebar_label: ذخیره‌سازی داده‌ها
 ![image](https://latex.codecogs.com/png.latex?%5Cinline%20%5Csmall%20%5Cbegin%7Balign*%7D%20%26%5Cquad%20%5C%3B%2000000000000000000000000000001010%5C%5C%20%26+11111111111111111111111111110110%5C%5C%20%5Chline%20%26%3D00000000000000000000000000000000%20%5Cend%7Balign*%7D)
 
 حاصل این جمع در واقع یک رقم ۱ و ۳۲ رقم ۰ می‌شود. اما چون ۳۲ رقم بیشتر نداریم، رقم ۱ بیرون از حافظه می‌افتد که به این اتفاق سرریز (Overflow) گفته می‌شود.
+
+گفتیم کوچک‌ترین عدد در مبنای ۲ با ۳۲ بیت، عدد 10000000000000000000000000000000 است و همچنین بزرگ‌ترین عدد در مبنای ۲ با ۳۲ بیت، 01111111111111111111111111111111 است. از در مبنای ۲، این دو عدد پشت هم قرار می‌گیرند. به همین علت است که وقتی مقدار متغییر از حدی تجاوز می‌کند، عدد منفی می‌شود.
+
+![image](/img/maxresdefault.jpg)
 
 ### float
 
