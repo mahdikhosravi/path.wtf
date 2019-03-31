@@ -38,6 +38,14 @@ a.docs-next.button {
   text-align: start;
 }
 
+.toc-headings {
+  margin-right: 15px;
+}
+
+img[alt="inlineImage"] {
+  display: inline;
+}
+
 .navigationWrapper {
   margin-left: 0;
   margin-right: auto;
